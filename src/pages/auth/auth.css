@@ -1,0 +1,9 @@
+/* Agrega esto a tu archivo CSS */
+.no-show-password-icon {
+    -webkit-text-security: disc;
+    appearance: none;
+}
+
+.no-show-password-icon::-ms-reveal {
+    display: none;
+}
