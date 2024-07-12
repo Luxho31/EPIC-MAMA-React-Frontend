@@ -78,14 +78,16 @@ const Login = () => {
                             ¿Olvidaste la contraseña?
                         </NavLink>
                     </div>
-                    <button
-                        className="bg-blue-500 text-white px-4 py-2 rounded mt-4"
-                        onClick={() => {
-                            navigate("/dashboard");
-                        }}
-                    >
-                        Ingresar
-                    </button>
+                    <div className="flex justify-center">
+                        <button
+                            className="bg-blue-500 text-white px-48 py-2 rounded mt-4"
+                            onClick={() => {
+                                navigate("/dashboard");
+                            }}
+                        >
+                            Ingresar
+                        </button>
+                    </div>
                 </form>
             </div>
         </div>
